@@ -1,43 +1,67 @@
-# 👋 Hi, I'm Mohid
+# Mohid Naghman
+### AI/ML Engineer | Generative AI & Backend Developer
 
-🎓 I'm an AI & Data Science student with hands-on experience building smart applications using Python, Flask, and machine learning.
-
----
-
-## 🧠 Skills & Tools
-- **Languages**: Python, SQL, HTML/CSS
-- **Libraries**: Pandas, NumPy, scikit-learn, Matplotlib, Seaborn
-- **Deep Learning**: TensorFlow, Keras, CNNs, ANN
-- **NLP**: T5, NLTK, Hugging Face Transformers
-- **Web Dev**: Flask, REST APIs
-- **Database**: MySQL, MVC architecture
-- **Others**: Git, VS Code
+AI & Data Science student specializing in **Generative AI, Multi-Agent Systems, and Scalable Backend Architectures**. Expert in building production-ready applications using **LangChain, FastAPI, and Docker** with a focus on performance optimization and RAG integration. **Current CGPA: 3.83/4.00**.
 
 ---
 
-## 🚀 Projects
+## 🛠️ Technical Stack
 
-- 🧠 **MCQ Generator App**  
-  Auto-generates multiple-choice questions from PDF/DOCX/TXT using NLP and Flask  
-  [GitHub Repo](https://github.com/MohidNaghman1/MCQS_Generator_Flask_app)
+### 🧠 Generative AI & Machine Learning
+- **GenAI/LLMs**: LangChain, LangGraph, RAG Systems, OpenAI GPT, Prompt Engineering
+- **Vector Databases**: FAISS, ChromaDB, Pinecone
+- **Deep Learning**: PyTorch, TensorFlow, Keras, CNN, Transformers (Hugging Face)
+- **Data Science**: Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
 
-- 📊 **Calories Prediction**  
-  The Calories Prediction Project is a machine learning application designed to predict the number of calories burned based on various user inputs.
-  [GitHub Repo](https://github.com/MohidNaghman1/Calories_Prediction)
-
-- 🧾 **Text to SQL Generator**  
-  Converts natural language queries into SQL using T5 model  
-  [GitHub Repo](https://github.com/MohidNaghman1/Text_To_Sql-Convertor)
-
----
-
-## 📈 GitHub Stats
-
-![Mohid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)
+### ⚙️ Backend & Infrastructure
+- **Languages/Frameworks**: Python (Advanced OOP), FastAPI, Flask, SQL (PostgreSQL, MySQL)
+- **Database & Cache**: PostgreSQL (SQLAlchemy ORM), Redis (Event-Driven Design), Alembic Migrations
+- **DevOps/Deployment**: Docker, Docker Compose, CI/CD Pipelines, Render/Railway, GitHub Actions
+- **Security**: OAuth2, JWT Authentication, Role-Based Access Control (RBAC)
 
 ---
 
-## 📫 Connect With Me
-- 💼 [LinkedIn](https://www.linkedin.com/in/mohid-naghman/)
-- 💻 [GitHub](https://github.com/MohidNaghman1)
-- 📧 Email: mohidnaghman0@gmail.com
+## 🚀 Featured Projects
+
+### 🌟 [AI-Powered Content Platform | Full-Stack Capstone](https://github.com/MohidNaghman1)
+*Comprehensive AI ecosystem combining production backend practices with Generative AI.*
+- **Core Modules**: Engineered a modular architecture featuring User Management (JWT/RBAC), AI Content Generation/Summarization, and an Admin Analytics Dashboard.
+- **AI Chat System**: Implemented context-aware personal assistants with conversation history, streaming responses, and token usage tracking.
+- **Event-Driven Architecture**: Developed a notification system utilizing a **Redis-based event queue** for background tasks and system alerts.
+- **Tech Stack**: FastAPI, PostgreSQL, Redis, LangChain, Docker, Alembic.
+
+### 🤖 [CareerGPT | AI-Powered Career Platform](https://github.com/MohidNaghman1)
+*Multi-agent AI platform delivering personalized professional guidance.*
+- **Architecture**: Engineered 5 specialized agents (CareerAdvisor, ResumeAnalyst) using LangGraph.
+- **Performance**: Achieved **<2s response latency** through SSE streaming and optimized RAG pipelines.
+- **Security**: Integrated secure FastAPI backend with JWT authentication and real-time web search.
+
+### 📚 [ERP RAG Assistant | University Info System](https://github.com/MohidNaghman1)
+*GenAI system providing instant access to complex academic and financial data.*
+- **Accuracy**: Designed a LangChain + FAISS pipeline achieving **92% query accuracy** on unstructured student records.
+- **Deployment**: Built and deployed an intuitive Streamlit UI for real-time interaction with ERP portal data.
+
+### 🏥 [Melanoma Cancer Detection | Deep Learning](https://github.com/MohidNaghman1)
+*CNN-based computer vision model for clinical skin cancer screening.*
+- **Optimization**: Achieved **94% accuracy** through advanced hyperparameter tuning and data augmentation techniques.
+- **Tech**: TensorFlow, Scikit-learn, Matplotlib.
+
+---
+
+## 📉 GitHub Stats
+![Mohid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohidNaghman1&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MohidNaghman1&layout=compact&theme=tokyonight)
+
+---
+
+## 🏆 Certifications & Training
+- **Deep Learning Specialization**: DeepLearning.AI (Coursera)
+- **Backend & AI Integration**: Specialized training in FastAPI, PostgreSQL, Redis, and Dockerized production environments.
+- **PuCon'25**: Participant in National AI/ML Innovation Competition.
+
+---
+
+## 📫 Contact & Professional Links
+- **LinkedIn**: [linkedin.com/in/mohid-naghman/](https://www.linkedin.com/in/mohid-naghman/)
+- **Email**: [mohidnaghman0@gmail.com](mailto:mohidnaghman0@gmail.com)
+- **Location**: Lahore, Pakistan

@@ -180,7 +180,6 @@ Visualization: Matplotlib • Model Interpretation
 ## 🎓 Education
 
 **Bachelor of Science in Artificial Intelligence & Data Science**  
-*Current CGPA: **3.83/4.00***
 
 **Focus Areas:** Generative AI, Deep Learning, Backend Architecture, Production ML Systems
 
@@ -192,7 +191,7 @@ Visualization: Matplotlib • Model Interpretation
 class MohidNaghman:
     def __init__(self):
         self.role = "AI/ML Engineer & Backend Developer"
-        self.education = "AI & Data Science | CGPA: 3.83/4.00"
+        self.education = "AI & Data Science"
         self.location = "Lahore, Pakistan"
         
     def specializations(self):

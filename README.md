@@ -17,7 +17,7 @@
 
 ## 🎯 About Me
 
-AI & Data Science student with a **3.83/4.00 CGPA**, specializing in building **production-grade AI applications** that combine cutting-edge Generative AI with scalable backend architectures. Expert in transforming complex AI concepts into deployed, user-facing solutions using **LangChain, FastAPI, and Docker**.
+AI & Data Science student specializing in building **production-grade AI applications** that combine cutting-edge Generative AI with scalable backend architectures. Expert in transforming complex AI concepts into deployed, user-facing solutions using **LangChain, FastAPI, and Docker**.
 
 **Core Focus Areas:**
 - 🤖 Multi-Agent AI Systems & RAG Architectures

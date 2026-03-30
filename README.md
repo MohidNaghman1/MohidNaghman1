@@ -155,41 +155,7 @@ An **enterprise-grade, event-driven crypto intelligence system** that ingests hi
 
 #### 🏗️ Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    API Gateway (FastAPI)                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
-│  │   RSS Feeds  │  │  Market APIs │  │ Blockchain  │           │
-│  │  Aggregator  │  │   Ingestion  │  │   Listener  │           │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘           │
-│         └──────────────────┼──────────────────┘                  │
-│                            │                                      │
-│                    ┌───────▼────────┐                            │
-│                    │  RabbitMQ      │                            │
-│                    │  Message Queue │                            │
-│                    └───────┬────────┘                            │
-│                            │                                      │
-│    ┌───────────────────────┼───────────────────────┐             │
-│    │                       │                       │             │
-│  ┌─▼──────────┐ ┌──────────▼───┐ ┌──────────────┐ │             │
-│  │  Scoring   │ │  Filtering   │ │  Enrichment │ │ Celery      │
-│  │  Worker    │ │  Worker      │ │  Worker     │ │ Tasks       │
-│  └─┬──────────┘ └──────────┬───┘ └──────────────┘ │             │
-│    └───────────────────────┼───────────────────────┘             │
-│                            │                                      │
-│                    ┌───────▼────────┐                            │
-│                    │   PostgreSQL   │                            │
-│                    │   Event Store  │                            │
-│                    └────────────────┘                            │
-│                                                                   │
-│    ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
-│    │  Email       │  │  Telegram    │  │  WebSocket   │         │
-│    │  Delivery    │  │  Bot         │  │  Streaming   │         │
-│    └──────────────┘  └──────────────┘  └──────────────┘         │
-└─────────────────────────────────────────────────────────────────┘
-```
+Microservices via RabbitMQ · Worker pools with Celery · Event sourcing with Redis · PostgreSQL event log
 
 #### 💻 Tech Stack
 
@@ -220,7 +186,7 @@ Data Sources: RSS (feedparser) · REST APIs · Web3.py (blockchain)
   <img src="https://img.shields.io/badge/Uptime-99.8%25-blue?style=for-the-badge" />
 </p>
 
-> 🌐 **Full-stack production content generation & summarization platform powered by Google Gemini with enterprise-grade architecture**
+> 🌐 **Full-stack production content generation & summarization platform powered by Google Gemini**
 
 A **production-ready AI ecosystem** featuring enterprise authentication, streaming AI conversations, intelligent content summarization, and a Redis-backed event notification system — fully containerized, tested, and deployed with zero-downtime updates.
 
@@ -234,13 +200,6 @@ A **production-ready AI ecosystem** featuring enterprise authentication, streami
 | **User Authentication**     | JWT tokens · OAuth2 integration · Role-Based Access Control                |
 | **Real-Time Notifications** | Redis Pub/Sub · Event queues · User preferences · Notification tracking    |
 
-#### 🔐 Security & Compliance
-
-- **Authentication:** JWT + OAuth2 + Session management
-- **Authorization:** RBAC (Admin, User, Moderator roles)
-- **Data Protection:** Encrypted passwords · SQL injection prevention · CORS policies
-- **Audit Logging:** All API requests logged · User activity tracking
-
 #### 💻 Tech Stack
 
 ```yaml
@@ -249,7 +208,6 @@ Database: PostgreSQL · SQLAlchemy ORM · Alembic versions
 AI/ML: LangChain · Google Gemini API · Prompt templates
 Infrastructure: Redis (cache/notifications) · RabbitMQ queues
 Deployment: Docker · Docker Compose · Render · GitHub Actions
-API Testing: FastAPI TestClient · Pytest · Coverage reports
 ```
 
 #### 📈 Key Metrics
@@ -267,12 +225,11 @@ API Testing: FastAPI TestClient · Pytest · Coverage reports
   <a href="https://github.com/MohidNaghman1/Carrer_Gpt" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://carrer-gpt.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Multi_Agent%20System-5%20LLMs-orange?style=for-the-badge" />
 </p>
 
-> 🎯 **Multi-agent AI system orchestrated with LangGraph delivering personalized career advisory through 5 specialized LLM agents**
+> 🎯 **Multi-agent AI system orchestrated with LangGraph delivering personalized career advisory**
 
-A **sophisticated multi-agent platform** leveraging **LangGraph orchestration** to coordinate 5 domain-specialized AI agents, real-time web search integration, and a high-performance Next.js frontend — achieving **<2 second** end-to-end streaming response latency.
+A **sophisticated multi-agent platform** leveraging **LangGraph orchestration** to coordinate 5 domain-specialized AI agents with real-time web search integration — achieving **<2 second** end-to-end streaming response latency.
 
 #### 🎭 Agent Ecosystem
 
@@ -284,52 +241,15 @@ A **sophisticated multi-agent platform** leveraging **LangGraph orchestration** 
 | **📊 SkillGapAnalyzer** | Skill assessment      | Gap identification · Learning roadmaps · Resource recommendations   |
 | **🔍 JobMatchEngine**   | Opportunity matching  | Job search · Salary negotiation · Culture fit analysis              |
 
-#### 🧠 Multi-Agent Architecture
-
-```
-User Query
-    │
-    ▼
-┌─────────────────────────────────────┐
-│      LangGraph Orchestrator          │
-│   (Agent routing & tool calling)     │
-└────────┬────────────────────────────┘
-         │
-    ┌────┼────────────────────┬────────────┐
-    │    │                    │            │
-    ▼    ▼                    ▼            ▼
-[CareerAdvisor] [ResumeAnalyst] [InterviewCoach] [SkillGapAnalyzer]
-    │                                      │
-    └──────────────── ┌──────────────────┘
-                      │
-                  ┌───▼──────────────────────┐
-                  │  RAG Knowledge Base      │
-                  │  + Web Search APIs      │
-                  │  + Real-Time Info       │
-                  └──────────────────────────┘
-                      │
-                      ▼
-              [Stream to Frontend]
-                   <2s latency
-```
-
 #### 💻 Tech Stack
 
 ```yaml
 AI/ML: LangGraph (multi-agent orchestration) · LangChain · Groq LLaMA-3
 Backend: FastAPI · Async endpoints · SSE streaming
-Frontend: Next.js 14 · React 18 · Tailwind CSS · Real-time WebSocket
+Frontend: Next.js 14 · React 18 · Tailwind CSS
 Data: FAISS (vector store) · Semantic search · Web search APIs
-Deployment: FastAPI on Railway · Frontend on Vercel · GitHub Actions CI/CD
+Deployment: FastAPI on Railway · Frontend on Vercel
 ```
-
-#### 🚀 Performance Optimizations
-
-- **Agent Selection:** Smart routing to relevant agents (30ms)
-- **Parallel Execution:** Concurrent agent processing where applicable
-- **Streaming Response:** Token-level streaming to reduce perceived latency
-- **Caching:** FAISS caching + Redis for frequent queries
-- **Result:** **End-to-end response time: <2 seconds**
 
 ---
 
@@ -339,65 +259,19 @@ Deployment: FastAPI on Railway · Frontend on Vercel · GitHub Actions CI/CD
   <a href="https://github.com/MohidNaghman1/Erp_Rag_Assistant" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://erpragassistant-5jhmrtx5wniqqx8h9pmtnt.streamlit.app/" target="_blank"><img src="https://img.shields.io/badge/Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Accuracy-92%25-2E9EF7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Queries%20Answered-10K%2B-blue?style=for-the-badge" />
 </p>
 
-> 📖 **Production RAG system providing instant semantic access to unstructured university ERP records with 92% query accuracy**
+> 📖 **Production RAG system providing semantic access to unstructured university ERP records**
 
-A **sophisticated Information Retrieval system** that autonomously scrapes, chunks, embeds, and indexes unstructured university ERP data — enabling thousands of students to query complex policies, enrollment procedures, and financial data using natural language.
+A **sophisticated Information Retrieval system** that autonomously scrapes, chunks, embeds, and indexes unstructured university ERP data — enabling students to query complex policies using natural language with 92% accuracy.
 
-#### 🏗️ Data Pipeline
+#### 🎯 Core Features
 
-```
-┌─────────────────────────────────────────────────┐
-│        Selenium Web Crawler                      │
-│ (Automated university portal scraping)           │
-└────────────┬────────────────────────────────────┘
-             │
-             ▼
-┌─────────────────────────────────────────────────┐
-│     Multi-Format Document Processing             │
-│ (PDF · HTML · TXT extraction)                   │
-└────────────┬────────────────────────────────────┘
-             │
-             ▼
-┌─────────────────────────────────────────────────┐
-│    Intelligent Chunking Strategy                │
-│ (Semantic boundaries · Context preservation)    │
-└────────────┬────────────────────────────────────┘
-             │
-             ▼
-┌─────────────────────────────────────────────────┐
-│   LLM Embedding Generation                      │
-│ (Dense vector representations)                  │
-└────────────┬────────────────────────────────────┘
-             │
-             ▼
-┌─────────────────────────────────────────────────┐
-│    FAISS Vector Store                           │
-│ (500+ document chunks indexed)                  │
-└────────────┬────────────────────────────────────┘
-             │
-             ▼
-┌─────────────────────────────────────────────────┐
-│   Semantic Search & Ranking                     │
-│ (Retrieve top-k relevant chunks)                │
-└────────────┬────────────────────────────────────┘
-             │
-             ▼
-┌─────────────────────────────────────────────────┐
-│   LLM Response Generation                       │
-│ (Context-aware, grounded answers)               │
-└─────────────────────────────────────────────────┘
-```
-
-#### 📊 RAG Optimizations
-
-- **Chunking Strategy:** Smart size selection (400-600 tokens) minimizing context loss
-- **Semantic Search:** Top-k retrieval with relevance scoring
-- **Prompt Engineering:** Few-shot examples for consistent output format
-- **Fact Grounding:** Citations with source documents
-- **Iterative Refinement:** User feedback loop for continuous improvement
+- **Web Scraping:** Automated university portal data collection via Selenium
+- **Document Processing:** Multi-format extraction (PDF, HTML, TXT)
+- **Vector Search:** FAISS semantic indexing with top-k retrieval
+- **Context Grounding:** LLM responses with source citations
+- **User Interface:** Real-time Streamlit query interface
 
 #### 💻 Tech Stack
 
@@ -409,297 +283,75 @@ Frontend: Streamlit · Real-time query interface
 Deployment: Streamlit Cloud · Async background jobs
 ```
 
-#### 📈 Accuracy & Performance
+#### 📈 Performance
 
 - **Query Accuracy:** 92% precision on unstructured queries
 - **Response Latency:** <3 seconds average
 - **Knowledge Base:** 500+ indexed document chunks
-- **Daily Active Users:** 200+ students
-- **Query Volume:** 10K+ queries/month
-
----
-
-### 🏥 Melanoma Cancer Detection — Deep Learning Computer Vision
-
-<p>
-  <a href="https://github.com/MohidNaghman1" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Model%20Accuracy-94%25-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AUC%20Score-0.96-blue?style=for-the-badge" />
-</p>
-
-> 🩺 **Production-ready CNN classifier for clinical dermatological screening with 94% accuracy**
-
-An **enterprise computer vision system** leveraging **transfer learning** and **advanced data augmentation** to classify melanoma vs. benign lesions — designed for clinical deployment with explainability features.
-
-#### 🧠 Deep Learning Architecture
-
-| Component          | Details                                                          |
-| ------------------ | ---------------------------------------------------------------- |
-| **Model**          | EfficientNetB5 (transfer learning) · Pre-trained on ImageNet     |
-| **Input**          | 224×224 RGB dermatology images                                   |
-| **Augmentation**   | Rotation · Zoom · Shifting · Brightness · Class balancing        |
-| **Regularization** | Dropout · L2 · Batch Normalization · Early Stopping              |
-| **Output**         | Binary classification (Melanoma / Benign) with confidence scores |
-
-#### 📊 Performance Metrics
-
-```
-Accuracy:        94%
-Sensitivity:     92% (catches 92% of melanomas)
-Specificity:     96% (correctly rules out 96% of benign)
-Precision:       95%
-F1-Score:        0.93
-AUC-ROC:         0.96
-```
-
-#### 💻 Tech Stack
-
-```yaml
-Deep Learning: TensorFlow 2.x · Keras · Transfer Learning
-Data Processing: scikit-learn · Pandas · NumPy
-Visualization: Matplotlib · Confusion matrix · ROC curves
-Model Tuning: Hyperparameter optimization · Grid search · Cross-validation
-```
-
----
-
-## 📊 GitHub Analytics & Contributions
-
-<div align="center">
-
-<img height="195em" src="https://github-readme-stats.vercel.app/api?username=MohidNaghman1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9&count_private=true&line_height=27" />
-<img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohidNaghman1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9&langs_count=10" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MohidNaghman1&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9EF7&ring=2E9EF7&fire=FF6B6B&currStreakLabel=2E9EF7&dateFormat=M%20j%5B,%20Y%5D" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MohidNaghman1&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=FF6B6B&area=true" />
-
-</div>
-
-### 📈 GitHub Stats at a Glance
-
-<table align="center">
-<tr>
-<td>
-
-| Metric        | Value        |
-| ------------- | ------------ |
-| Public Repos  | 15+          |
-| Total Stars   | 200+ ⭐      |
-| Contributions | 1000+ / year |
-| Followers     | Growing 📈   |
-
-</td>
-<td>
-
-| Metric               | Status      |
-| -------------------- | ----------- |
-| Longest Streak       | 60+ days 🔥 |
-| Languages            | 5+          |
-| Deployment Platforms | 6+          |
-| Open Source          | Active      |
-
-</td>
-</tr>
-</table>
-
----
-
-## 🏆 Achievements & Recognition
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎓 Education & Certifications
-
-| Credential                        | Issuer                     | Status                        |
-| --------------------------------- | -------------------------- | ----------------------------- |
-| **B.S. AI & Data Science**        | Superior University        | In Progress (CGPA: 3.83/4.00) |
-| **Deep Learning Specialization**  | DeepLearning.AI (Coursera) | Completed 2025                |
-| **Backend Architecture Training** | Industry Labs              | Completed                     |
-| **Production ML Systems**         | Advanced Practicum         | Completed                     |
-
-</td>
-<td width="50%">
-
-### 🎯 Notable Achievements
-
-- 🏆 **PuCon 2025** — National AI/ML Innovation Competition
-- 📈 **3.83 / 4.00 GPA** — Maintained high academic performance
-- 🚀 **5 Live Deployed Projects** — End-to-end production systems
-- 💡 **1000+ GitHub Commits** — Active contributor & maintainer
-- 📊 **200+ Project Stars** — Community recognition
-- 🌐 **Global Reach** — Users across 50+ countries
-
-</td>
-</tr>
-</table>
 
 ---
 
 ## 🎓 Education
 
-### 🎓 Bachelor of Science: Artificial Intelligence & Data Science
+**B.S. Artificial Intelligence & Data Science** — Superior University, Lahore
 
-**Superior University, Lahore, Pakistan**
-
-| Detail          | Info                                                                                                         |
-| --------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Graduation**  | Expected May 2027                                                                                            |
-| **GPA**         | **3.83 / 4.00** ⭐⭐⭐                                                                                       |
-| **Program**     | 4-Year Bachelor's Degree                                                                                     |
-| **Focus Areas** | Generative AI · Deep Learning · Distributed Systems · Production ML                                          |
-| **Coursework**  | Machine Learning · NLP · Computer Vision · Data Structures · Algorithms · Database Systems · Advanced Python |
-
-### 📚 Additional Training & Certifications
-
-| Certification                    | Focus                         | Provider               | Year    |
-| -------------------------------- | ----------------------------- | ---------------------- | ------- |
-| **Deep Learning Specialization** | Neural Networks & Advanced DL | DeepLearning.AI        | 2025    |
-| **Backend Systems Design**       | Microservices & Async Arch    | Industry Practitioners | 2024-25 |
-| **Production ML Deployment**     | Containerization & DevOps     | Advanced Practicum     | 2024-25 |
-| **LangChain & GenAI**            | LLM Applications & RAG        | Self-Directed          | Ongoing |
+- **Graduation:** Expected May 2027 | **GPA:** 3.83/4.00
+- **Focus:** Generative AI, Deep Learning, Distributed Systems, Production ML
 
 ---
 
 ## 💼 Professional Competencies
 
-### 🧠 Generative AI & LLM Expertise
+### 🧠 Generative AI & LLMs
 
-- **LLM Orchestration:** Multi-agent systems · Agentic workflows · Tool use & function calling
-- **Prompt Engineering:** Few-shot learning · Chain-of-Thought reasoning · Structured outputs · Role-based prompts
-- **RAG Systems:** Document processing · Semantic search · Retrieval strategies · Context optimization
-- **Cost & Latency Optimization:** Token reduction · Caching strategies · Streaming responses · Batch processing
-- **LLM Fine-Tuning:** Transfer learning · Domain adaptation · Custom model training
+- Multi-agent orchestration · LLM fine-tuning · RAG systems · Prompt engineering
+- Cost/latency optimization · Streaming responses · Token management
 
-### 🏗️ Backend Architecture & System Design
+### 🏗️ Backend Architecture
 
-- **Microservices:** Event-driven · Asynchronous · CQRS pattern · Service isolation
-- **Message Queues:** RabbitMQ · Celery · Producer-Consumer patterns · Pub/Sub architecture
-- **Caching Strategies:** Redis · TTL management · Cache invalidation · Distributed caching
-- **Database Design:** PostgreSQL · Query optimization · Indexing · Sharding strategies · Alembic migrations
-- **Real-Time Systems:** WebSockets · Server-Sent Events · Real-time data streaming
-- **Async Programming:** Python asyncio · Concurrent execution · Event loop management
+- Event-driven microservices · Message queues (RabbitMQ, Celery) · Real-time systems
+- PostgreSQL optimization · Cache strategies · Async programming (asyncio)
 
-### 🚀 DevOps & Deployment
+### 🚀 DevOps & Cloud
 
-- **Containerization:** Docker · Multi-stage builds · Docker Compose · Image optimization
-- **CI/CD Pipelines:** GitHub Actions · Automated testing · Linting · Build optimization
-- **Cloud Deployment:** Render · Railway · Vercel · Streamlit Cloud · Service configuration
-- **Monitoring & Logging:** Health checks · Error tracking · Performance monitoring · Log aggregation
-- **Infrastructure as Code:** Docker Compose · Environment management · Secrets handling
+- Docker & Docker Compose · GitHub Actions CI/CD · Render, Railway, Vercel deployment
+- Alembic migrations · Monitoring & logging · Infrastructure as code
 
-### 💻 Full-Stack Development
+### 💻 Full-Stack
 
-- **Frontend:** Next.js · React hooks · State management (Context, Zustand) · Tailwind CSS · Responsive design
-- **API Design:** RESTful architecture · OpenAPI documentation · Error handling · Request validation
-- **Testing:** Unit tests · Integration tests · E2E tests · Test coverage
-- **Performance:** Code splitting · Lazy loading · Caching · Compression
+- Next.js · React · Tailwind CSS · FastAPI · Testing & performance optimization
 
 ---
 
-## 🚀 What I'm Currently Working On
+## 🚀 Current Focus
 
-<table>
-<tr>
-<td>
-
-### 🔬 Current Focus
-
-- **Advanced Multi-Agent Systems** — Exploring hierarchical agent orchestration with LangGraph
-- **LLM Optimization** — Reducing latency & cost in production LLM pipelines
-- **Distributed Systems** — Building fault-tolerant event-driven architectures
-- **Production AI** — Deploying scalable GenAI applications at enterprise scale
-
-</td>
-<td>
-
-### 🎯 Next on the Roadmap
-
-- **Real-Time Analytics Platform** — Stream processing with Kafka
-- **Agent Memory Systems** — Persistent context & knowledge integration
-- **Fine-Tuned Models** — Custom LLMs for domain-specific tasks
-- **Advanced RAG** — Hybrid search & self-improving retrievers
-- **Open Source Contributions** — Contributing to LangChain ecosystem
-
-</td>
-</tr>
-</table>
+- Advanced multi-agent systems with LangGraph
+- Production LLM latency & cost optimization
+- Fault-tolerant event-driven architectures
+- Scalable GenAI applications at enterprise scale
 
 ---
 
-## 🎨 My Engineering Philosophy
+## 🏆 Achievements
 
-```python
-class EngineeringPhilosophy:
-    """My core principles for building systems"""
-
-    principles = {
-        "Ship First": "Working solutions beat perfect plans. Deploy MVP, iterate.",
-        "Scalability": "Design for growth. Think 10x before building.",
-        "Simplicity": "Prefer boring, tested tech. Complexity is debt.",
-        "Performance": "Measure first. Optimize ruthlessly. Profile everything.",
-        "Reliability": "Uptime > Perfection. Graceful degradation over crashes.",
-        "Clarity": "Code is for humans. Make it obvious. Document why, not what.",
-    }
-
-    def approach_to_problems(self):
-        return [
-            "1. Understand deeply — read the code, understand the architecture",
-            "2. Measure intelligently — profile, benchmark, gather data",
-            "3. Optimize strategically — address bottlenecks, not guesses",
-            "4. Document thoroughly — future-self will thank you",
-            "5. Test extensively — automate everything testable",
-            "6. Deploy confidently — monitoring & rollback plans in place",
-        ]
-
-    def tech_selection_criteria(self):
-        return """
-        ✅ Choose if:  Solves real problems · Team expertise · Battle-tested · Active community
-        ❌ Avoid if:   Hype-driven · Premature optimization · Single vendor lock-in · Unmaintained
-        """
-```
+- **PuCon 2025** — National AI/ML Innovation Competition
+- **5 Live Deployed Projects** — End-to-end production systems
+- **Deep Learning Specialization** — DeepLearning.AI, 2025
+- Active open source contributor
 
 ---
 
-## 💡 Featured Blog Topics (If Writing)
+## 🎨 Philosophy
 
-_Topics I'm passionate about explaining:_
+> **Ship working systems** → **Optimize ruthlessly** → **Scale intelligently**
 
-- 📝 **"Building Production RAG Systems"** — End-to-end guide from data to deployment
-- 📝 **"Multi-Agent Architectures with LangGraph"** — Orchestrating complex AI workflows
-- 📝 **"Event-Driven Architecture at Scale"** — RabbitMQ, Celery, and distributed systems
-- 📝 **"From Prototype to Production"** — Making AI systems deployment-ready
-- 📝 **"Optimizing LLM Latency"** — Sub-second streaming inference techniques
+Solve real problems with proven technology. Measure before optimizing. Write code others can understand.
 
 ---
 
-## 🤝 Collaboration & Opportunities
+## 📫 Let's Connect
 
-I'm actively interested in:
-
-| Opportunity     | Interest  | Details                                      |
-| --------------- | --------- | -------------------------------------------- |
-| **Open Source** | 🔥 High   | Contributing to LangChain, FastAPI, Pydantic |
-| **AI Startups** | 🔥 High   | Early-stage GenAI product development        |
-| **Consulting**  | 🟡 Medium | Architecture design & optimization           |
-| **Speaking**    | 🟡 Medium | Tech talks & conference presentations        |
-| **Mentoring**   | 🟢 Low    | Open to selective mentorship opportunities   |
-
----
-
-## 📫 Let's Connect & Collaborate
-
-I'm always interested in connecting with fellow engineers, AI enthusiasts, and businesses looking to build the next generation of intelligent systems.
+I'm interested in connecting with fellow engineers, AI enthusiasts, and businesses building intelligent systems.
 
 <div align="center">
 

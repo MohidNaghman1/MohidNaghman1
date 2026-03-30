@@ -1,23 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mohid%20Naghman&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=32&desc=🚀+AI+Engineer+%7C+GenAI+%26+Distributed+Systems+%7C+Production-Grade+Solutions&descAlignY=58&descSize=22" />
+# 👨‍💻 Mohid Naghman
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/mohid-naghman/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:mohidnaghman0@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/MohidNaghman1" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://github.com/MohidNaghman1?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/Lahore%2C%20Pakistan-FF6B6B?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location"/></a>
-</p>
+### AI/ML Engineer | Generative AI & Backend Developer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=2E9EF7&center=true&vCenter=true&width=950&lines=🤖+Building+Production-Grade+AI+Systems;⚡+Distributed+Event-Driven+Backend+Architecture;🧠+Multi-Agent+AI+%26+Advanced+RAG+Pipelines;🚀+LangChain+%7C+FastAPI+%7C+Docker+%7C+LangGraph+%7C+PostgreSQL" alt="Typing SVG" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohid-naghman/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohidnaghman0@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohidNaghman1)
+[![Location](https://img.shields.io/badge/Lahore,_Pakistan-FF6B6B?style=for-the-badge&logo=google-maps&logoColor=white)](#)
 
----
-
-<p>
-  <img src="https://img.shields.io/badge/Status-🔥%20Active%20Development-success?style=for-the-badge&color=success" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%26%20Backend%20Systems-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Experience-Full%20Stack%20AI-orange?style=for-the-badge" />
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=800&lines=AI+%26+Data+Science+Student;Generative+AI+Specialist;Backend+Architecture+Expert;Building+Production-Ready+AI+Systems" alt="Typing SVG" />
 
 </div>
 
@@ -25,28 +17,44 @@
 
 ## 🧬 About Me
 
-I'm an **AI Engineer** passionate about building **production-grade generative AI systems** and **distributed backend architectures** that scale. With a strong foundation in full-stack development, I specialize in orchestrating complex multi-agent AI workflows, designing event-driven microservices, and deploying cutting-edge LLM applications end-to-end.
+I'm an **AI Engineer** passionate about building **production-grade systems** that solve real problems. I specialize in generative AI, backend architecture, and deploying scalable systems that process real-time data efficiently.
 
-```yaml
-name: Mohid Naghman
-role: AI Engineer | Generative AI & Backend Systems Architect
-location: Lahore, Pakistan 🇵🇰
-education: B.S. Artificial Intelligence & Data Science @ Superior University
-gpa: 3.83 / 4.00  ⭐
-expertise:
-  - Production Generative AI Systems & LLM Orchestration
-  - Distributed Event-Driven Microservices Architecture
-  - Multi-Agent Workflows & Advanced RAG Pipelines
-  - Real-time Low-Latency AI Systems
-  - Full-Stack Development (Backend + Frontend + DevOps)
-current_focus: Building scalable, intelligent systems that solve real-world problems
+**Philosophy:** Build working systems → Optimize ruthlessly → Scale intelligently
+
+---
+
+## 💼 What I Bring to the Table
+
+```python
+class MohidNaghman:
+    def __init__(self):
+        self.role = "AI/ML Engineer & Backend Developer"
+        self.education = "B.S. AI & Data Science"
+        self.location = "Lahore, Pakistan"
+
+    def specializations(self):
+        return {
+            "generative_ai": ["LangChain", "LangGraph", "RAG Systems", "Multi-Agent AI"],
+            "backend": ["FastAPI", "PostgreSQL", "Redis", "Event-Driven Architecture"],
+            "ml_dl": ["PyTorch", "TensorFlow", "CNN", "Transformers"],
+            "devops": ["Docker", "CI/CD", "Production Deployment"]
+        }
+
+    def current_focus(self):
+        return [
+            "Building production-grade AI applications",
+            "Optimizing LLM performance and cost",
+            "Scalable backend architectures",
+            "Real-time AI systems"
+        ]
+
+    def contact(self):
+        return {
+            "linkedin": "linkedin.com/in/mohid-naghman/",
+            "email": "mohidnaghman0@gmail.com",
+            "github": "github.com/MohidNaghman1"
+        }
 ```
-
-### 💡 What Drives Me
-
-> I transform **complex AI concepts** into **deployed, scalable products** — from multi-agent LangGraph orchestrations and enterprise RAG systems to distributed event-driven backends processing millions of real-time signals with sub-second latency.
-
-**My philosophy:** Ship working systems, optimize ruthlessly, scale intelligently.
 
 ---
 

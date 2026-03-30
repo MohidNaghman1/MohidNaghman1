@@ -340,12 +340,44 @@ Deployment: Streamlit Cloud · Async background jobs
 
 ---
 
-## 🏆 Achievements
+## 📊 GitHub Analytics
 
-- **PuCon 2025** — National AI/ML Innovation Competition
-- **5 Live Deployed Projects** — End-to-end production systems
-- **Deep Learning Specialization** — DeepLearning.AI, 2025
-- Active open source contributor
+<div align="center">
+
+![Mohid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohidNaghman1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MohidNaghman1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MohidNaghman1&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9EF7&ring=2E9EF7&fire=FF6B6B&currStreakLabel=2E9EF7)
+
+</div>
+
+---
+
+## 🏆 Certifications & Professional Development
+
+<table>
+<tr>
+<td width="50%">
+
+**🎓 Technical Certifications**
+
+- 🏅 **Deep Learning Specialization** - DeepLearning.AI (Coursera)
+- 🏅 **Backend & AI Integration** - FastAPI, PostgreSQL, Redis, Docker
+- 🏅 **Production ML Systems** - Deployment & Infrastructure
+
+</td>
+<td width="50%">
+
+**🎯 Achievements**
+
+- 🏆 **PuCon'25** - National AI/ML Innovation Competition Participant
+- 📈 **CGPA: 3.83/4.00** - AI & Data Science Program
+- 💡 **Open Source Contributor** - AI/ML Projects
+
+</td>
+</tr>
+</table>
 
 ---
 

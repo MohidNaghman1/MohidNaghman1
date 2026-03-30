@@ -1,64 +1,69 @@
 <div align="center">
 
-# 👨‍💻 Mohid Naghman
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Mohid%20Naghman&fontSize=62&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20Generative%20AI%20%26%20Backend%20Systems&descAlignY=55&descSize=20" />
 
-### AI/ML Engineer | Generative AI & Backend Developer
+<p align="center">
+  <a href="https://www.linkedin.com/in/mohid-naghman/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:mohidnaghman0@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/MohidNaghman1"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Lahore%2C%20Pakistan-FF6B6B?style=for-the-badge&logo=google-maps&logoColor=white" />
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohid-naghman/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohidnaghman0@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohidNaghman1)
-[![Location](https://img.shields.io/badge/Lahore,_Pakistan-FF6B6B?style=for-the-badge&logo=google-maps&logoColor=white)](#)
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=800&lines=AI+%26+Data+Science+Student;Generative+AI+Specialist;Backend+Architecture+Expert;Building+Production-Ready+AI+Systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=850&lines=🤖+Building+Production-Grade+AI+Systems;⚡+Distributed+Event-Driven+Backends;🧠+Multi-Agent+AI+%26+RAG+Architectures;🚀+LangChain+%7C+FastAPI+%7C+Docker+%7C+LangGraph" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## 🎯 About Me
+## 🧬 About Me
 
-AI & Data Science student specializing in building **production-grade AI applications** that combine cutting-edge Generative AI with scalable backend architectures. Expert in transforming complex AI concepts into deployed, user-facing solutions using **LangChain, FastAPI, and Docker**.
+```yaml
+name:       Mohid Naghman
+role:       AI Engineer | Generative AI & Backend Systems
+location:   Lahore, Pakistan
+education:  B.S. Artificial Intelligence & Data Science @ Superior University (CGPA: 3.83/4.00)
+focus:
+  - Production-grade Generative AI systems
+  - Distributed event-driven backend architectures
+  - Multi-agent workflows & RAG pipelines
+  - Real-time low-latency AI systems
+```
 
-**Core Focus Areas:**
-- 🤖 Multi-Agent AI Systems & RAG Architectures
-- ⚡ High-Performance Backend Development
-- 🔄 Event-Driven Microservices & Distributed Systems
-- 🚀 Production ML/AI Deployment
+I turn complex AI concepts into **deployed, scalable, user-facing products** — from multi-agent LLM systems and RAG pipelines to distributed microservices with RabbitMQ, Redis, and real-time WebSocket delivery.
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Tech Stack
 
 <details open>
 <summary><b>🧠 Generative AI & Machine Learning</b></summary>
 <br>
 
-| Category | Technologies |
-|----------|-------------|
-| **GenAI Frameworks** | ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat&logo=chainlink&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-0C9D58?style=flat) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) |
-| **LLM Providers** | ![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white) ![Groq](https://img.shields.io/badge/Groq_LLaMA--3-F55036?style=flat) |
-| **Vector Databases** | ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat) ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat) |
-| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white) |
-| **ML/Data Science** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) |
-| **Transformers** | Hugging Face 🤗 \| BERT \| GPT \| CNN Architectures |
+| Domain | Technologies |
+|--------|-------------|
+| **GenAI Frameworks** | ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-0C9D58?style=flat-square) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) |
+| **LLM Providers** | ![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![Groq](https://img.shields.io/badge/Groq_LLaMA--3-F55036?style=flat-square) |
+| **Vector Stores** | ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square) ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square) |
+| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) |
+| **ML / NLP** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) |
+| **Transformers** | Hugging Face 🤗 · BERT · GPT · CNN Architectures |
 
 </details>
 
 <details open>
-<summary><b>⚙️ Backend Engineering & Infrastructure</b></summary>
+<summary><b>⚙️ Backend, Infrastructure & Full-Stack</b></summary>
 <br>
 
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) (Advanced OOP) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white) |
-| **Frameworks** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) |
-| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat) |
-| **Message Queues** | ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white) |
-| **Caching & Realtime** | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat) (Event-Driven Architecture) |
-| **Full-Stack** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) |
-| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) CI/CD Pipelines |
-| **Deployment** | Render \| Railway \| Vercel \| Alembic Migrations |
-| **Security** | OAuth2 \| JWT Authentication \| Role-Based Access Control (RBAC) |
+| Domain | Technologies |
+|--------|-------------|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) (Advanced OOP) · ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) · ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **API Frameworks** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) |
+| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square) |
+| **Messaging & Cache** | ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square) |
+| **Full-Stack** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
+| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) CI/CD Pipelines |
+| **Deployment** | Render · Vercel · Railway · Streamlit Cloud · Alembic |
+| **Security** | OAuth2 · JWT Authentication · RBAC |
 
 </details>
 
@@ -66,96 +71,131 @@ AI & Data Science student specializing in building **production-grade AI applica
 
 ## 🚀 Featured Projects
 
-### ⚡ [AETERNA — Autonomous Alpha Engine](https://github.com/MohidNaghman1) &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/MohidNaghman1) [![Live](https://img.shields.io/badge/Live-00C851?style=flat&logo=vercel&logoColor=white)](#)
+---
 
-> **AI-powered crypto intelligence platform with real-time event processing (MVP)**
+### ⚡ AETERNA — Autonomous Alpha Engine
 
-**🎯 Key Achievements:**
-- **Distributed Architecture**: Designed a scalable, event-driven system using **RabbitMQ, Redis, PostgreSQL, and Celery** to orchestrate ingestion, processing, and alert pipelines across fully decoupled services
-- **AI-Driven Signal Filtering**: Built an intelligent event scoring pipeline to reduce noise and surface high-signal crypto events from RSS feeds, market APIs, and Ethereum on-chain streams
-- **Multi-Channel Alerts**: Engineered low-latency alert delivery across Email, Telegram, and WebSocket with user preference–aware routing and asynchronous real-time push
+<p>
+  <a href="https://github.com/MohidNaghman1/AETERNA-Autonomous-Alpha-Engine"><img src="https://img.shields.io/badge/GitHub-View_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://aeterna-autonomous-alpha-engine.onrender.com"><img src="https://img.shields.io/badge/Live_Demo-00C851?style=for-the-badge&logo=render&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Status-MVP-FFD700?style=for-the-badge" />
+</p>
 
-**🔧 Tech Stack:**
+> 🧠 *AI-powered crypto intelligence platform with real-time distributed event processing*
+
+An **event-driven crypto intelligence system** that ingests signals from RSS feeds, market APIs, and Ethereum on-chain streams — scores them with AI, filters noise, and delivers real-time high-signal alerts across multiple channels.
+
+| Feature | Detail |
+|---------|--------|
+| 🏗️ **Architecture** | Fully decoupled microservices via RabbitMQ, Redis, Celery, PostgreSQL |
+| 🤖 **AI Pipeline** | Intelligent event scoring & noise filtering across multi-source data streams |
+| 📡 **Alert Delivery** | Real-time push via Email · Telegram · WebSocket with user preference routing |
+| ⚡ **Performance** | Low-latency async workers with horizontal scalability |
+
 ```
-Backend:    FastAPI • PostgreSQL • SQLAlchemy • Celery
-Messaging:  RabbitMQ • Redis • Event-Driven Architecture
-Delivery:   WebSocket • Telegram Bot • Email • Async Workers
-Data:       RSS Feeds • Market APIs • Ethereum On-Chain Streams
+Stack:  FastAPI · PostgreSQL · SQLAlchemy · Celery · RabbitMQ · Redis
+        WebSocket · Telegram Bot · Async Workers · Docker
+Data:   RSS Feeds · Crypto Market APIs · Ethereum On-Chain Streams
 ```
 
 ---
 
-### 🌟 [AI-Powered Content Platform](https://github.com/MohidNaghman1) &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/MohidNaghman1) [![Live](https://img.shields.io/badge/Live-00C851?style=flat&logo=vercel&logoColor=white)](#)
+### 🌟 AI-Powered Content Platform
 
-> **Full production content generation and summarization platform powered by Google Gemini**
+<p>
+  <a href="https://github.com/MohidNaghman1/Ai_Content_Platform"><img src="https://img.shields.io/badge/GitHub-View_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://ai-content-platform-k4b9.onrender.com/docs"><img src="https://img.shields.io/badge/Live_API_Docs-00C851?style=for-the-badge&logo=render&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge" />
+</p>
 
-**🎯 Key Achievements:**
-- **Modular Architecture**: Engineered scalable system with User Management (JWT/RBAC), AI Content Generation/Summarization, and real-time Analytics Dashboard
-- **Intelligent AI Chat**: Implemented context-aware conversational agents with conversation history, streaming responses, and token optimization
-- **Event-Driven Design**: Built Redis-based notification queue for asynchronous background tasks and system-wide alerts
-- **Full DevOps**: Containerized with Docker, CI/CD via GitHub Actions, deployed live on Render
+> 🌐 *Full-stack production content generation & summarization platform powered by Google Gemini*
 
-**🔧 Tech Stack:**
+A **production-ready AI ecosystem** with enterprise-grade auth, streaming AI chat, and a Redis-based event notification queue — fully containerized and deployed with automated CI/CD.
+
+| Feature | Detail |
+|---------|--------|
+| 🔐 **Auth & Access** | JWT + OAuth2 + Role-Based Access Control (RBAC) |
+| 💬 **AI Chat** | Context-aware streaming responses with conversation history |
+| 🔔 **Notifications** | Redis event queue for async background tasks & system alerts |
+| 🚢 **DevOps** | Docker · GitHub Actions CI/CD · Live on Render |
+
 ```
-Backend:    FastAPI • PostgreSQL • SQLAlchemy • Alembic
-AI/ML:      LangChain • Google Gemini • RAG Pipeline
-Infra:      Docker • Redis • GitHub Actions • Render
-```
-
----
-
-### 🤖 [CareerGPT | AI-Powered Professional Guidance Platform](https://github.com/MohidNaghman1) &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/MohidNaghman1) [![Live](https://img.shields.io/badge/Live-00C851?style=flat&logo=vercel&logoColor=white)](#)
-
-> **Multi-agent AI system delivering personalized career advisory through specialized LLM agents**
-
-**🎯 Key Achievements:**
-- **Multi-Agent Architecture**: Designed 5 specialized agents (CareerAdvisor, ResumeAnalyst, InterviewCoach, SkillGapAnalyzer, JobMatchEngine) using LangGraph orchestration
-- **Performance Optimization**: Achieved **<2s response latency** through Server-Sent Events (SSE) streaming and optimized RAG pipelines
-- **Real-Time Intelligence**: Integrated live web search capabilities for current job market trends and industry insights
-- **Full-Stack**: Built FastAPI backend + Next.js frontend with JWT authentication and role-based access control
-
-**🔧 Tech Stack:**
-```
-AI:         LangGraph • LangChain • Groq LLaMA-3 • Multi-Agent Orchestration
-Backend:    FastAPI • JWT Auth • SSE Streaming
-Frontend:   Next.js • React • Tailwind CSS
-Data:       RAG Pipeline • FAISS Vector Search • Web Integration
+Backend: FastAPI · PostgreSQL · SQLAlchemy · Alembic
+AI/ML:   LangChain · Google Gemini · RAG Pipeline
+Infra:   Docker · Redis · GitHub Actions · Render
 ```
 
 ---
 
-### 📚 [ERP RAG Assistant | Intelligent University Information System](https://github.com/MohidNaghman1) &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/MohidNaghman1) [![Live](https://img.shields.io/badge/Live-00C851?style=flat&logo=vercel&logoColor=white)](#)
+### 🤖 CareerGPT — AI Career Coaching Platform
 
-> **GenAI-powered system providing instant access to complex academic and financial records**
+<p>
+  <a href="https://github.com/MohidNaghman1/Carrer_Gpt"><img src="https://img.shields.io/badge/GitHub-View_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://carrer-gpt.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge" />
+</p>
 
-**🎯 Key Achievements:**
-- **High Accuracy**: Designed LangChain + FAISS pipeline achieving **92% query accuracy** on unstructured student records
-- **Intelligent Retrieval**: Implemented semantic search over academic policies, fee structures, and enrollment data via Selenium scraping + document processing
-- **User Experience**: Deployed production-ready Streamlit interface for real-time ERP portal interaction
+> 🎯 *Multi-agent AI system delivering personalized career advisory through specialized LLM agents*
 
-**🔧 Tech Stack:**
+A **LangGraph-orchestrated multi-agent platform** with 5 domain-specialized AI agents, real-time web search, and a full Next.js frontend — achieving sub-2s streaming response latency.
+
+| Agent | Role |
+|-------|------|
+| 🧭 CareerAdvisor | Personalized career path planning |
+| 📄 ResumeAnalyst | Resume review & optimization |
+| 🎤 InterviewCoach | Interview prep & mock Q&A |
+| 📊 SkillGapAnalyzer | Skill assessment & learning plans |
+| 🔍 JobMatchEngine | Job opportunity matching |
+
 ```
-AI/NLP:  LangChain • Groq LLaMA-3 • FAISS Vector Store • Semantic Search
-Backend: Python • Selenium • Document Processing Pipeline
-UI:      Streamlit • Real-Time Query Interface
+AI:       LangGraph · LangChain · Groq LLaMA-3 · Multi-Agent Orchestration
+Backend:  FastAPI · JWT Auth · SSE Streaming (<2s latency)
+Frontend: Next.js · React · Tailwind CSS
+Data:     FAISS RAG · Real-Time Web Search
 ```
 
 ---
 
-### 🏥 [Melanoma Cancer Detection | Deep Learning Computer Vision](https://github.com/MohidNaghman1)
+### 📚 ERP RAG Assistant — Intelligent University Portal
 
-> **CNN-based diagnostic model for clinical skin cancer screening**
+<p>
+  <a href="https://github.com/MohidNaghman1/Erp_Rag_Assistant"><img src="https://img.shields.io/badge/GitHub-View_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://erpragassistant-5jhmrtx5wniqqx8h9pmtnt.streamlit.app/"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Accuracy-92%25-2E9EF7?style=for-the-badge" />
+</p>
 
-**🎯 Key Achievements:**
-- **Model Performance**: Achieved **94% classification accuracy** through advanced hyperparameter optimization
-- **Robust Training**: Implemented data augmentation, transfer learning, and regularization techniques
-- **Clinical Viability**: Designed for real-world dermatological screening applications
+> 📖 *GenAI-powered RAG system providing instant access to unstructured university ERP records*
 
-**🔧 Tech Stack:**
+A **production RAG pipeline** that scrapes, processes, and indexes unstructured university ERP data — enabling students to query academic policies, fee structures, and enrollment details via natural language.
+
+| Feature | Detail |
+|---------|--------|
+| 🎯 **Accuracy** | 92% query accuracy on unstructured student records |
+| 🕷️ **Data Ingestion** | Selenium-based scraping + multi-format document processing |
+| 🔍 **Retrieval** | FAISS semantic search over academic & financial data |
+| 💻 **Interface** | Real-time Streamlit UI deployed on Streamlit Cloud |
+
 ```
-Deep Learning:    TensorFlow • Keras • CNN Architecture
-Data Processing:  Scikit-learn • Data Augmentation
-Visualization:    Matplotlib • Model Interpretation
+AI/NLP:  LangChain · Groq LLaMA-3 · FAISS · Semantic Search
+Backend: Python · Selenium Scraper · Document Processing Pipeline
+UI:      Streamlit · Real-Time Query Interface
+```
+
+---
+
+### 🏥 Melanoma Cancer Detection — Deep Learning CV
+
+<p>
+  <a href="https://github.com/MohidNaghman1"><img src="https://img.shields.io/badge/GitHub-View_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Accuracy-94%25-success?style=for-the-badge" />
+</p>
+
+> 🩺 *CNN-based diagnostic model for clinical dermatological screening*
+
+```
+Deep Learning:   TensorFlow · Keras · CNN · Transfer Learning · Data Augmentation
+Data:            Scikit-learn · Hyperparameter Optimization · Regularization
+Visualization:   Matplotlib · Model Interpretation
 ```
 
 ---
@@ -164,34 +204,36 @@ Visualization:    Matplotlib • Model Interpretation
 
 <div align="center">
 
-![Mohid's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohidNaghman1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MohidNaghman1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9&count_private=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohidNaghman1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9&langs_count=8" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MohidNaghman1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MohidNaghman1&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9EF7&ring=2E9EF7&fire=FF6B6B&currStreakLabel=2E9EF7" />
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MohidNaghman1&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9EF7&ring=2E9EF7&fire=FF6B6B&currStreakLabel=2E9EF7)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MohidNaghman1&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=2E9EF7&line=2E9EF7&point=FF6B6B" />
 
 </div>
 
 ---
 
-## 🏆 Certifications & Professional Development
+## 🏆 Certifications & Achievements
 
 <table>
 <tr>
 <td width="50%">
 
-**🎓 Technical Certifications**
-- 🏅 **Deep Learning Specialization** - DeepLearning.AI (Coursera), 2025
-- 🏅 **Backend & AI Integration** - FastAPI, PostgreSQL, Redis, Docker
-- 🏅 **Production ML Systems** - Deployment & Infrastructure
+**🎓 Certifications**
+- 🏅 **Deep Learning Specialization** — DeepLearning.AI (Coursera), 2025
+- 🏅 **Backend & AI Integration Training** — Production Environments
+- 🏅 **Production ML Systems** — Deployment & Infrastructure
 
 </td>
 <td width="50%">
 
-**🎯 Achievements**
-- 🏆 **PuCon'25** - National AI/ML Innovation Competition Participant
-- 📈 **CGPA: 3.83/4.00** - AI & Data Science Program
-- 💡 **Open Source Contributor** - AI/ML Projects
+**🎯 Highlights**
+- 🏆 **PuCon 2025** — National AI/ML Innovation Competition
+- 📈 **CGPA: 3.83 / 4.00** — AI & Data Science Program
+- 🚀 **5 Live Deployed Projects** — End-to-end production systems
+- 💡 Open Source Contributor
 
 </td>
 </tr>
@@ -201,10 +243,10 @@ Visualization:    Matplotlib • Model Interpretation
 
 ## 🎓 Education
 
-**Bachelor of Science in Artificial Intelligence & Data Science**
-Superior University, Lahore — Expected May 2027
+**🎓 B.S. Artificial Intelligence & Data Science**
+**Superior University, Lahore** · Expected May 2027 · CGPA: **3.83 / 4.00**
 
-**Focus Areas:** Generative AI, Deep Learning, Backend Architecture, Production ML Systems
+> Focus: Generative AI · Deep Learning · Backend Architecture · Production ML Systems
 
 ---
 
@@ -213,56 +255,55 @@ Superior University, Lahore — Expected May 2027
 ```python
 class MohidNaghman:
     def __init__(self):
-        self.role = "AI/ML Engineer & Backend Developer"
-        self.education = "AI & Data Science"
+        self.role     = "AI Engineer | Generative AI & Backend Systems"
         self.location = "Lahore, Pakistan"
-        
+        self.cgpa     = "3.83 / 4.00"
+
     def specializations(self):
         return {
-            "generative_ai": ["LangChain", "LangGraph", "RAG Systems", "Multi-Agent AI"],
-            "backend": ["FastAPI", "PostgreSQL", "Redis", "RabbitMQ", "Event-Driven Architecture"],
-            "ml_dl": ["PyTorch", "TensorFlow", "CNN", "Transformers"],
-            "devops": ["Docker", "CI/CD", "GitHub Actions", "Production Deployment"],
-            "full_stack": ["Next.js", "React", "Tailwind CSS", "WebSockets"]
+            "generative_ai": ["LangChain", "LangGraph", "RAG Pipelines", "Multi-Agent AI", "Prompt Engineering"],
+            "backend":       ["FastAPI", "PostgreSQL", "Redis", "RabbitMQ", "Celery", "WebSockets", "Event-Driven Arch"],
+            "ml_dl":         ["PyTorch", "TensorFlow", "CNN", "NLP", "Transformers", "Hugging Face"],
+            "devops":        ["Docker", "GitHub Actions", "CI/CD", "Render", "Vercel", "Railway"],
+            "full_stack":    ["Next.js", "React", "Tailwind CSS", "JavaScript"]
         }
-    
+
     def current_focus(self):
         return [
-            "Building production-grade AI applications",
-            "Distributed event-driven systems",
-            "Optimizing LLM performance and cost",
-            "Real-time AI systems at scale"
+            "Distributed event-driven AI systems at scale",
+            "Optimizing LLM latency and cost in production",
+            "Multi-agent orchestration with LangGraph",
+            "Real-time AI pipelines with WebSocket & SSE"
         ]
-    
+
     def contact(self):
         return {
             "linkedin": "linkedin.com/in/mohid-naghman/",
-            "email": "mohidnaghman0@gmail.com",
-            "github": "github.com/MohidNaghman1"
+            "email":    "mohidnaghman0@gmail.com",
+            "github":   "github.com/MohidNaghman1"
         }
 ```
 
 ---
 
-## 📫 Let's Connect!
+## 📫 Let's Connect
 
 <div align="center">
 
-I'm always interested in collaborating on innovative AI projects, discussing cutting-edge ML research, or exploring backend architecture patterns.
+I'm always open to collaborating on ambitious AI projects, discussing cutting-edge research, or exploring new backend architecture patterns.
 
-**Feel free to reach out for:**
-- 🤝 Collaboration on AI/ML projects
-- 💡 Technical discussions on GenAI & Backend systems
-- 🚀 Open source contributions
-- 📧 Professional opportunities
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohid-naghman/)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:mohidnaghman0@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohid-naghman/)
+[![Email](https://img.shields.io/badge/Gmail-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohidnaghman0@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohidNaghman1)
 
----
+<br>
 
-<img src="https://komarev.com/ghpvc/?username=MohidNaghman1&label=Profile%20Views&color=2E9EF7&style=for-the-badge" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=MohidNaghman1&label=Profile%20Views&color=2E9EF7&style=for-the-badge" />
 
-*"Building the future with AI, one line of code at a time."* ✨
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" />
 
 </div>

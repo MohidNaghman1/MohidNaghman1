@@ -415,7 +415,6 @@ I'm interested in connecting with fellow engineers, AI enthusiasts, and business
 ---
 
 <div align="center">
-
 ### 📊 Profile Stats
 
 <img src="https://komarev.com/ghpvc/?username=MohidNaghman1&label=Profile%20Views&color=2E9EF7&style=for-the-badge" />
